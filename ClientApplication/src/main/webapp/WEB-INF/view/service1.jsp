@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -16,26 +15,26 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
 
 	<!-- CSS Files -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="/assets/css/gsdk-bootstrap-wizard.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/gsdk-bootstrap-wizard.css" rel="stylesheet" />
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<!-- <link href="/assets/css/demo.css" rel="stylesheet" /> -->
 	
 	<!--   Core JS Files   -->
-	<script src="/assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
-	<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
 
 	<!--  Plugin for the Wizard -->
-	<script src="/assets/js/gsdk-bootstrap-wizard.js"></script>
+	<script src="assets/js/gsdk-bootstrap-wizard.js"></script>
 
 	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
-	<script src="/assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
 </head>
 
 <body>
-<div class="image-container set-full-height" style="background-image: url('/assets/img/wizard-boat.jpg')">
+<div class="image-container set-full-height" style="background-image: url('assets/img/wizard-boat.jpg')">
     <!--   Creative Tim Branding   -->
     <!-- <a href="http://creative-tim.com">
          <div class="logo-container">

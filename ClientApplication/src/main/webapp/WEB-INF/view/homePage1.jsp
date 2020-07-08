@@ -51,7 +51,7 @@
 </head>
 <body>
 	<div class="login-form">
-		<form action="/client/login" method="post">
+		<form action="login" method="post">	
 			<h2 class="text-center">Log in</h2>
 			<div class="form-group">
 				<input type="text" class="form-control" name="userName"
